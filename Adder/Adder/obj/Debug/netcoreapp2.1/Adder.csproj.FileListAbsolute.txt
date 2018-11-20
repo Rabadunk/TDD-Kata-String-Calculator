@@ -1,0 +1,11 @@
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/bin/Debug/netcoreapp2.1/Adder.deps.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/bin/Debug/netcoreapp2.1/Adder.runtimeconfig.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/bin/Debug/netcoreapp2.1/Adder.runtimeconfig.dev.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/bin/Debug/netcoreapp2.1/Adder.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/bin/Debug/netcoreapp2.1/Adder.pdb
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.csprojAssemblyReference.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.csproj.CoreCompileInputs.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.AssemblyInfoInputs.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.AssemblyInfo.cs
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/Adder/obj/Debug/netcoreapp2.1/Adder.pdb

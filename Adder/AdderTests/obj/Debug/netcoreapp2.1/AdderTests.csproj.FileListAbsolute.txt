@@ -1,0 +1,17 @@
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/AdderTests.deps.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/AdderTests.runtimeconfig.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/AdderTests.runtimeconfig.dev.json
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/AdderTests.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/AdderTests.pdb
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/Adder.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/bin/Debug/netcoreapp2.1/Adder.pdb
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.csprojAssemblyReference.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.csproj.CoreCompileInputs.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.AssemblyInfoInputs.cache
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.AssemblyInfo.cs
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.csproj.CopyComplete
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.dll
+/Users/jonathan.alphonso/RiderProjects/TDD-Kata-String-Calculator/Adder/AdderTests/obj/Debug/netcoreapp2.1/AdderTests.pdb
