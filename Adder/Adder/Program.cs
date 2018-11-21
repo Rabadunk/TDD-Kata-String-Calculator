@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Adder
 {
@@ -21,7 +22,51 @@ namespace Adder
                 return singleDigit;
             }
 
-            return 1;
+            string[] stringNumArray = CustomDelimiterSplit(NumString);
+            return GetSumFromStringArray(stringNumArray);
         }
+
+        private static string[] StringSplitter(string StringToBeSplit, string[] delimiters)
+        {
+            var stringArray = StringToBeSplit.Split(delimiters, StringSplitOptions.None);
+            return stringArray;
+        }
+        
+        private static string[] CustomDelimiterSplit(string StringToCheckAndSplit)
+        {
+            string[] stringNumArray = StringSplitter(StringToCheckAndSplit, GetDelimiter(StringToCheckAndSplit));
+            return stringNumArray;
+        }
+
+        private static string[] GetDelimiter(string StringWithDelimiter)
+        {
+            string[] defaultDelimiters = {",", "\n"};
+            if (!StringWithDelimiter.Contains("//")) return defaultDelimiters;
+            
+            var endOfDelimiterIndex = StringWithDelimiter.IndexOf('\n', 0);
+            string[] customDelimiters = {StringWithDelimiter.Substring(2, endOfDelimiterIndex - 2)};
+            return customDelimiters;
+        }
+
+        private static string RemoveDelimiterSection(string OldString)
+        {
+            var endOfDelimiterIndex = OldString.IndexOf('\n', 0);
+            var lengthOfNewString = OldString.Length - endOfDelimiterIndex;
+            return OldString.Substring(endOfDelimiterIndex, lengthOfNewString);
+        }
+
+        private static int GetSumFromStringArray(string[] NumStringArray)
+        {
+            var sum = 0;
+            
+            foreach (var element in NumStringArray)
+            {
+                int.TryParse((string) element, out var num);
+                sum += num;
+            }
+
+            return sum;
+        }
+
     }
 }
