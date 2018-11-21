@@ -34,7 +34,7 @@ namespace Adder
         
         private static string[] CustomDelimiterSplit(string StringToCheckAndSplit)
         {
-            string[] stringNumArray = StringSplitter(StringToCheckAndSplit, GetDelimiter(StringToCheckAndSplit));
+            string[] stringNumArray = StringSplitter(RemoveDelimiterSection(StringToCheckAndSplit), GetDelimiter(StringToCheckAndSplit));
             return stringNumArray;
         }
 
@@ -55,16 +55,19 @@ namespace Adder
             return OldString.Substring(endOfDelimiterIndex, lengthOfNewString);
         }
 
+        private static int[] GetIntArrayFromStringArray(string[] StringArray)
+        {
+            return StringArray.Select(int.Parse).ToArray();
+        }
+
         private static int GetSumFromStringArray(string[] NumStringArray)
         {
-            var sum = 0;
-            
+            var sum = 0;   
             foreach (var element in NumStringArray)
             {
                 int.TryParse((string) element, out var num);
                 sum += num;
             }
-
             return sum;
         }
 
